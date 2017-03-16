@@ -1,0 +1,805 @@
+html {
+    -webkit-text-size-adjust: none
+}
+
+.chosenCondition {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-top: 1px solid #e7e7e7;
+    height: 24px
+}
+
+.chosenCondition span, .chosenCondition a, .chosenCondition i {
+    display: inline-block;
+    float: left
+}
+
+.chosenCondition i.line {
+    height: 18px;
+    width: 3px;
+    margin: 3px 10px 0 0;
+    background: #ff6600
+}
+
+.chosenCondition span.tName {
+    font: normal 18px/24px "microsoft yahei";
+    color: #333333;
+    margin-right: 24px
+}
+
+.chosenCondition span.tLabel {
+    font: normal 14px/24px "microsoft yahei";
+    color: #999999
+}
+
+.chosenCondition a.condition {
+    padding: 0 24px 0 10px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+    background: #f4f4f4;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    cursor: pointer
+}
+
+.chosenCondition a.condition i.close {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    z-index: 2;
+    background: url("../../images/icon-yft.png") no-repeat 6px 6px
+}
+
+.chosenCondition a.condition:hover {
+    background: #ffffff
+}
+
+.chosenCondition a.backList {
+    float: right;
+    font-size: 14px;
+    color: #02b2ff;
+    line-height: 24px
+}
+
+.chosenCondition a.backList:hover {
+    color: #ff9e00
+}
+
+.container {
+    *zoom: 1;
+    width: 1200px;
+    margin: 0 auto
+}
+
+.container:before, .container:after {
+    content: "";
+    display: table
+}
+
+.container:after {
+    clear: both
+}
+
+.gird-12, .gird-1, .gird-3 {
+    display: inline;
+    float: left;
+    margin: 0 10px
+}
+
+.gird-12 {
+    width: 1180px
+}
+
+.gird-1 {
+    width: 280px
+}
+
+.gird-3 {
+    width: 220px
+}
+
+.yftAllGoodsTitle {
+    height: 53px;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #fafafa
+}
+
+.yftAllGoodsTitle .gird-12 {
+    background: url(/images/2015/index/cjy/zsj-bg.png) no-repeat left top;
+    height: 53px
+}
+
+.yftAllGoodsTitle .gird-12 .yft-zsjTitle {
+    font: 20px/53px 'microsoft yahei';
+    color: #4e433d;
+    background: url(/images/2015/index/cjy/icon-sysp.jpg) no-repeat 15px center;
+    height: 53px;
+    padding-left: 45px
+}
+
+.JSlide {
+    *zoom: 1;
+    width: 1180px;
+    height: 340px;
+    overflow: hidden;
+    position: relative
+}
+
+.JSlide:before, .JSlide:after {
+    content: "";
+    display: table
+}
+
+.JSlide:after {
+    clear: both
+}
+
+.JSlide ul.scrollable-panel {
+    width: 1180px
+}
+
+.JSlide ul.scrollable-panel li {
+    width: 1180px;
+    height: 340px;
+    float: left;
+    display: inline-block
+}
+
+.JSlide div.trigger-bar {
+    position: absolute;
+    z-index: 99;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50.5px
+}
+
+.JSlide div.trigger-bar .scrollable-trigger {
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 18px;
+    line-height: 16px;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.JSlide div.trigger-bar .scrollable-trigger a.index-icon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+    content: none;
+    background-color: #ffffff;
+    margin: 0 5px
+}
+
+.JSlide div.trigger-bar .scrollable-trigger a.current {
+    background-color: #ff6600
+}
+
+.JSlide a.arrow {
+    width: 50px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.JSlide a.arrow img {
+    margin: 25px 0 0 12px
+}
+
+.JSlide a.arrow:hover {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.JSlide a.next {
+    position: absolute;
+    bottom: 35%;
+    z-index: 999;
+    right: 0
+}
+
+.JSlide a.prev {
+    position: absolute;
+    bottom: 35%;
+    left: 0
+}
+
+.icon-fuwu {
+    font: 18px/30px 'microsoft yahei';
+    color: #333333;
+    height: 30px;
+    background: #f6f6f6;
+    background: url(/images/2015/index/cjy/icon-ssfw.png) no-repeat left top #f6f6f6;
+    margin-top: 40px
+}
+
+.icon-fuwu i {
+    background: url(/images/2015/index/cjy/iconall.png) no-repeat -38px top;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    color: #333333;
+    cursor: pointer
+}
+
+.icon-fuwu i:hover {
+    background: url(/images/2015/index/cjy/iconall.png) no-repeat 0 top
+}
+
+.icon-fuwuOn i {
+    background: url(/images/2015/index/cjy/iconall.png) no-repeat -38px -38px
+}
+
+.icon-fuwuOn i:hover {
+    background: url(/images/2015/index/cjy/iconall.png) no-repeat 0 -38px
+}
+
+.sjwf-content {
+    float: left;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 1200px;
+    height: 230px;
+    *zoom: 1
+}
+
+.sjwf-content:before, .sjwf-content:after {
+    content: "";
+    display: table
+}
+
+.sjwf-content:after {
+    clear: both
+}
+
+.sjwf-content dl {
+    margin-bottom: 20px
+}
+
+.sjwf-content dl dt {
+    width: 220px;
+    height: 165px;
+    float: left;
+    background: #fafafa;
+    overflow: hidden
+}
+
+.sjwf-content dl dd {
+    width: 220px;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 20px
+}
+
+.sjwf-content dl dd a {
+    font: 14px/16px 'Î¢ÈíÑÅºÚ';
+    color: #333;
+    display: block;
+    text-align: left;
+    width: 120px;
+    float: left;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.sjwf-content dl dd a:hover {
+    color: #f60
+}
+
+.sjwf-content dl dd span {
+    font: 12px/1 'Î¢ÈíÑÅºÚ';
+    color: #999999;
+    display: block;
+    text-align: right;
+    float: right;
+    width: 80px;
+    padding-right: 10px;
+    overflow: hidden
+}
+
+.sjwf-content dl dd span i {
+    font: 14px/1 'Î¢ÈíÑÅºÚ';
+    color: #f60
+}
+
+.sjwf-content dl:hover {
+    -webkit-box-shadow: 10px 10px 10px -6px #ccc;
+    -moz-box-shadow: 10px 10px 10px -6px #ccc;
+    box-shadow: 10px 10px 10px -6px #ccc;
+    position: relative
+}
+
+.yinshuaContent {
+    margin-bottom: 40px;
+    height: auto
+}
+
+.sjwf-open {
+    *zoom: 1;
+    height: 30px;
+    text-align: center;
+    margin-top: 25px
+}
+
+.sjwf-open:before, .sjwf-open:after {
+    content: "";
+    display: table
+}
+
+.sjwf-open:after {
+    clear: both
+}
+
+.sjwf-open a {
+    background: url(/images/2015/index/cjy/icon-zk.jpg) no-repeat left top;
+    height: 30px;
+    display: inline-block;
+    width: 220px;
+    position: relative;
+    overflow: hidden;
+    z-index: 3
+}
+
+.sjwf-open a i.xxtb {
+    background: url(/images/2015/index/cjy/xiangxia.png) no-repeat left -50px;
+    width: 60px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    left: 83px;
+    top: 0;
+    z-index: 2
+}
+
+.sjwf-open a i.zksy {
+    background: url(/images/2015/index/cjy/xiangxia.png) no-repeat left -21px;
+    width: 60px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    left: 83px;
+    top: -30px;
+    z-index: 2
+}
+
+.slider, .slider-panel img, .slider-extra {
+    width: 1200px;
+    height: 340px
+}
+
+.slider {
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    margin-top: 0;
+}
+
+.slider-panel, .slider-nav, .slider-pre, .slider-next {
+    position: absolute;
+    z-index: 8
+}
+
+.slider-panel {
+    position: absolute
+}
+
+.slider-panel img {
+    border: none
+}
+
+.slider-extra {
+    position: relative
+}
+
+.slider-nav {
+    margin-left: -51px;
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    width: 100px;
+    height: 13px;
+    background-color: grey;
+    opacity: 0.5;
+    border-radius: 10px;
+    line-height: 13px
+}
+
+.slider-nav li {
+    background: #fff;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 4px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    height: 8px;
+    line-height: 18px;
+    width: 8px
+}
+
+.slider-nav .slider-item-selected {
+    background: #f60
+}
+
+.slider-page a {
+    background: #000 url("../../../images/nav-left.png") no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000);
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-family: "simsun";
+    font-size: 22px;
+    width: 50px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: -31px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    opacity: 0.1
+}
+
+.slider-page a:HOVER {
+    opacity: 0.3
+}
+
+.slider-next {
+    background: #000 url("../../../images/nav-right.png") no-repeat !important;
+    left: 1130px !important
+}
+
+.productNav {
+    border: 1px solid #e7e7e7;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 21px
+}
+
+.productNav ul {
+    width: 1040px;
+    height: 40px
+}
+
+.productNav ul, .productNav ul li {
+    float: left
+}
+
+.productNav ul li {
+    margin-top: 25px;
+    margin-left: 0px
+}
+
+.productNav ul li a {
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    width: 89px;
+    text-align: center;
+    font-size: 14px;
+    color: #666
+}
+
+.productNav ul li a:hover, .all {
+    background-color: #ff6600;
+    color: #fff !important
+}
+
+.productType {
+    height: 32px;
+    padding: 0 0 20px
+}
+
+.productType label {
+    float: left;
+    line-height: 32px;
+    color: #999999
+}
+
+.productType dl {
+    float: left;
+    height: 32px;
+    margin: 0 0 0 5px;
+    width: 140px;
+    position: relative;
+    z-index: 999
+}
+
+.productType dl dt {
+    border: 1px solid #e7e7e7;
+    padding: 0 8px;
+    height: 30px;
+    cursor: pointer
+}
+
+.productType dl dt span {
+    float: left;
+    width: 108px;
+    line-height: 30px;
+    color: #999999
+}
+
+.productType dl dt i.i_triangle {
+    background: none;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #cccccc;
+    border-bottom: 0;
+    float: right;
+    margin-top: 12px
+}
+
+.productType dl dd {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 138px;
+    height: 188px;
+    overflow-y: auto;
+    border: 1px solid #e7e7e7;
+    background: #ffffff
+}
+
+.productType dl dd a {
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    padding: 0 8px;
+    color: #999999;
+    cursor: pointer
+}
+
+.productType dl dd a:hover, .productType dl dd a.active {
+    background: #dddddd;
+    color: #777777
+}
+
+.productType dl.open dt i {
+    background: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #cccccc;
+    border-top: 0
+}
+
+.productType dl.open dd {
+    display: block
+}
+
+.firstLi {
+    margin-top: 29px !important;
+    font-size: 14px;
+    color: grey;
+    margin-right: 13px;
+    margin-left: 23px;
+    float: left
+}
+
+.yinshua-main {
+    margin-top: 17px
+}
+
+.product-more {
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    background-color: #f5f5f5;
+    float: right;
+    margin-top: 29px !important;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer
+}
+
+.left10 {
+    left: -10px
+}
+
+.width1180 {
+    width: 1180px;
+    clear: both
+}
+
+.margin-btm {
+    margin-bottom: 25px !important
+}
+
+.gird-more {
+    display: inline-block;
+    background-color: #f5f5f5;
+    float: right;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 10px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.tcdPageCodeBox {
+    text-align: center
+}
+
+.tcdPageCode {
+    padding: 15px 20px;
+    text-align: left;
+    color: #ccc;
+    margin: 0 auto;
+    display: inline-block;
+    _zoom: 1;
+    *display: inline
+}
+
+.tcdPageCode a {
+    display: inline-block;
+    color: #000;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    vertical-align: middle;
+    width: 20px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center
+}
+
+.tcdPageCode a:hover {
+    text-decoration: none;
+    color: #ff6600
+}
+
+.tcdPageCode span.current {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    vertical-align: middle;
+    height: 40px;
+    width: 20px;
+    line-height: 40px;
+    text-align: center
+}
+
+.tcdPageCode span.disabled {
+    display: inline-block;
+    height: 40px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #bfbfbf;
+    background: #f2f2f2;
+    border: 1px solid #bfbfbf;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 62px;
+    text-align: center
+}
+
+.prevPage, .nextPage {
+    width: 62px !important;
+    height: 40px;
+    line-height: 40px;
+    text-align: center
+}
+
+.tcdPageCode i {
+    font-size: 14px;
+    color: #666;
+    margin-left: 18px
+}
+
+.tcdPageCode input {
+    width: 40px;
+    height: 39px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 39px
+}
+
+.tcdPageCode button {
+    width: 59px;
+    border: 1px solid #ebebeb;
+    background: #f3f3f3;
+    margin-left: 20px;
+    height: 40px;
+    outline: 0;
+    line-height: 38px;
+    color: #666;
+    font-size: 14px;
+    vertical-align: middle
+}
+
+.tcdPageCode input {
+    border: 1px solid #ddd
+}
+
+.webMapBot {
+    width: 1200px;
+    margin: 20px auto 30px;
+    overflow: hidden
+}
+
+.webMapBot .webMapBot-top {
+    overflow: hidden;
+    padding: 0 0 14px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666
+}
+
+.webMapBot .webMapBot-top span {
+    float: left
+}
+
+.webMapBot .webMapBot-top .guideItem {
+    float: left;
+    cursor: pointer;
+    padding: 0 6px;
+    background: #fafafa;
+    margin: 0 5px;
+    color: #666666
+}
+
+.webMapBot .webMapBot-top .guideItem:hover, .webMapBot .webMapBot-top .guideItem.active {
+    color: #ff6600
+}
+
+.webMapBot .webMapBot-cont {
+    overflow: hidden
+}
+
+.webMapBot .webMapBot-cont .webMapBot-item {
+    overflow: hidden;
+    display: none;
+    width: 1220px;
+    margin-left: -10px
+}
+
+.webMapBot .webMapBot-cont .webMapBot-item a {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    line-height: 26px;
+    margin: 0 10px;
+    white-space: nowrap
+}
+
+.webMapBot .webMapBot-cont .webMapBot-item a:hover {
+    color: #ff6600
+}
+
+/*# sourceMappingURL=yftAllGoods.css.map */
